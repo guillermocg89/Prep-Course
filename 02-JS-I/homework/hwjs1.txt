@@ -1,0 +1,29 @@
+variable: es un contenedor de datos que puede variar.
+
+var a = 7
+
+
+Strings: es una cadena de caracteres (se incorporan dentro de comillas ('')).
+strin = 'hola'
+strin = '33'
+strin = 'cualquier'
+
+
+
+funcion:
+function (2, 3) =>{
+    return 2 + 3
+}
+
+function suma (a, b){
+    return a + b
+}
+
+declaracion: es una condicion para ejecutar o leer un codigo.
+
+if = si if(condicion){
+    devuelve la funcion
+}
+
+booleanos: es una condicion que nos devuelve un valor de dos sea false o true.
+

@@ -65,13 +65,13 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false" (condicion lógica)
   // Tu código:
+  /* return x === y ? true : false*/ 
   if (x === y){
     return true;
   }
   else {
-    return false
-  }
-  
+    return false;
+  } 
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -194,23 +194,23 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return str + '!'
+  return str + '!';
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = nombre + ' ' + apellido;
-  return combinado;
+  var combinar = nombre + ' ' + apellido;
+  return combinar;
   
 }
 
-function obtenerSaludo(nombre) {
+function obtenerSaludo(Martin) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola ' + nombre + '!';
+  return 'Hola ' + Martin + '!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -239,7 +239,7 @@ function areaDelTriangulo(base, altura){
 function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
-  //Escribe tu código aquí
+  //Escribe tu código aquí 
   return euro * 1.2;
 }
 
